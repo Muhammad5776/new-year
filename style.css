@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Molle:ital@1&display=swap');
-/* font-family: 'Molle', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500;700&display=swap');
 
 *{
   padding: 0;
@@ -13,7 +13,7 @@
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
-  
+  font-family: 'Alegreya Sans', sans-serif;
 }
 .continer{
   background-image: linear-gradient(rgba(8, 1, 1, 0.0), rgba(8, 1, 1, 0.300)), url(./CSS/j9miVG.jpg);
@@ -31,6 +31,7 @@
   height: auto;
   margin-top: 15px;
   text-shadow: black 7px 7px 10px;
+  font-family: 'Molle', cursive;
 }
 .title{
   font-size: 60px;
@@ -77,7 +78,7 @@
 
 p.day{
   font-size: 20px;
-  padding-top: 15px;
+  padding-top: 1px;
   margin-top: 75px;
   margin-right: 10px;
   background-color: rgba(0, 0, 0, 0.500);
@@ -133,6 +134,7 @@ p.day{
   
   
   p.day{
+    
     font-size: 10px;
     padding-top: 2px;
     margin-top: 24px;
