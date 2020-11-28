@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Molle:ital@1&display=swap');
+/* font-family: 'Molle', cursive; */
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.section {
+  background-image: linear-gradient(rgba(8, 1, 1, 0.500), rgba(8, 1, 1, 0.500)), url(./CSS/background.jpg);
+  background-size: 100% ;
+  padding-bottom: 75px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  
+}
+.continer{
+  background-image: linear-gradient(rgba(8, 1, 1, 0.0), rgba(8, 1, 1, 0.300)), url(./CSS/j9miVG.jpg);
+  border-radius: 20px;
+  width: 65%;
+  height: auto;
+  margin-top: 50px; 
+  color: #eec365;
+  
+}
+.continer-title{
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  height: auto;
+  margin-top: 15px;
+  text-shadow: black 7px 7px 10px;
+}
+.title{
+  font-size: 60px;
+}
+.year{
+  font-size: 100px;
+}
+
+.countdown{
+  display: flex;
+  justify-content: center;
+  
+  
+}
+
+.countdown-day{
+  background-image: url(./date.png);
+  background-size: 250px 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  clip-path: polygon(0 28%, 100% 27%, 100% 100%, 0% 100%);
+  width: 210px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.countdown-hour, .countdown-minut, .countdown-second{
+  background-image: url(./date.png);
+  background-size: 250px 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  clip-path: polygon(0 28%, 100% 27%, 100% 100%, 0% 100%);
+  width: 210px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+}
+
+
+p.day{
+  font-size: 20px;
+  padding-top: 15px;
+  margin-top: 75px;
+  margin-right: 10px;
+  background-color: rgba(0, 0, 0, 0.500);
+  border-radius: 100px;
+  text-align: center;
+  width: 155px;
+  height: 150px;
+}
+.day-span{
+  font-size: 90px;
+  display: block; 
+}
+
+@media (max-width: 450px){
+
+  .section {
+    background-position: right;
+    background-size: 1400px ;   
+    
+  }
+  .continer{
+    background-size: 500px;
+    width: 85%;
+    height: auto;
+    margin-top: 160px; 
+    margin-bottom: 200px;
+  }
+  .continer-title{
+  width: 80%;
+  height: auto;
+  margin-top: 15px;
+  }
+  .title{
+    font-size: 20px;
+  }
+  .year{
+    font-size: 50px;
+  }
+  
+  .countdown-day{ 
+    background-size: 80px 80px;
+    width: 100px;
+    height: 150px;
+  }
+  
+  
+  .countdown-hour, .countdown-minut, .countdown-second{
+    background-size: 80px 80px; 
+    width: 90px;
+    height: 150px;
+    margin-left: 0px;
+  }
+  
+  
+  p.day{
+    font-size: 10px;
+    padding-top: 2px;
+    margin-top: 25px;
+    margin-right: 3px;
+    width: 50px;
+    height: 47px;
+  }
+  .day-span{
+    font-size: 20px;
+  }
+
+}
